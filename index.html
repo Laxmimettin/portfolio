@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Custom Animated Background Glows -->
+    <div class="glow-bg">
+        <div class="ball ball1"></div>
+        <div class="ball ball2"></div>
+    </div>
+
+    <!-- Custom Subtle Cursor -->
+    <div class="custom-cursor"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Laxmi<span>.Portfolio</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-wrapper">
+            <div class="hero-image-container">
+                <img src="profile.jpeg" alt="Laxmi G Mettin Profile Photo" class="profile-photo">
+                <div class="photo-glow"></div>
+            </div>
+
+            <div class="hero-content">
+                <span class="badge">Available for Internship & Entry-Level Roles</span>
+                <h1>Hi, I'm <span class="gradient-text">Laxmi Gurushiddappa Mettin</span></h1>
+                <h2><span id="typewriter"></span><span class="type-cursor">|</span></h2>
+                
+                <div class="hero-btns">
+                    <a href="laxmi_resume_word.pdf" class="btn btn-primary download-resume" download="laxmi_resume_word.pdf">Download Resume</a>
+                    <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Summary Section -->
+    <section class="summary-section">
+        <div class="section-title">
+            <h2>Professional Summary</h2>
+            <p>My background, focus, and what I bring to software development projects.</p>
+        </div>
+        <div class="summary-card">
+            <p>Computer Science and Engineering student with a 9.01/10 CGPA and hands-on experience developing full-stack web applications using the MERN stack. I have built academic and hackathon projects featuring role-based authentication, RESTful APIs, real-time communication, multilingual support, secure data management, and AI-assisted features. I have also participated in national-level hackathons, developing solutions under time constraints and collaborating in fast-paced environments.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-title">
+            <h2>Skills</h2>
+            <p>Core technologies and tools I’ve used to build full-stack web solutions.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-react react-icon"></i>
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript (ES6+)</span><span>React.js</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js node-icon"></i>
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span>Node.js</span><span>PHP</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database db-icon"></i>
+                <h3>Databases</h3>
+                <div class="skill-tags">
+                    <span>MongoDB</span><span>MySQL</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-code code-icon"></i>
+                <h3>Languages</h3>
+                <div class="skill-tags">
+                    <span>C</span><span>C++</span><span>Java</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-tools tools-icon"></i>
+                <h3>Tools &amp; Platforms</h3>
+                <div class="skill-tags">
+                    <span>Git</span><span>GitHub</span><span>RESTful APIs</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-layer-group framework-icon"></i>
+                <h3>Frameworks</h3>
+                <div class="skill-tags">
+                    <span>Bootstrap</span><span>Tailwind CSS</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-book-open" style="color: #f472b6;"></i>
+                <h3>CS Fundamentals</h3>
+                <div class="skill-tags">
+                    <span>Computer Networks</span><span>Operating Systems</span><span>DBMS</span><span>Object Oriented Programming</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-title">
+            <h2>Projects</h2>
+            <p>Academic and hackathon projects that reflect my hands-on development experience.</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card" data-tilt>
+                
+                <h3>AI Recipe Generator</h3>
+                <p>Developed a full-stack AI Recipe Generator with secure JWT-based authentication. Integrated OpenRouter, Hugging Face, and YouTube APIs to generate AI-powered recipes with step-by-step instructions and cooking video recommendations. Implemented multilingual voice/text ingredient input (English, Kannada, Hindi), recipe history tracking, and a responsive UI.</p>
+                <div class="project-tags">
+                    <span>React.js</span><span>Node.js</span><span>MongoDB</span><span>OpenRouter API</span><span>Hugging Face API</span><span>YouTube API</span><span>MyMemory Translation API</span>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                
+                <h3>Smart City Complaint Management System</h3>
+                <p>Developed a smart city complaint platform with 4 user roles, 15+ secure REST APIs, JWT-based authentication, multilingual routing, AI-based complaint classification, geolocation, and analytics dashboards.</p>
+                <div class="project-tags">
+                    <span>MongoDB</span><span>React</span><span>Node.js</span><span>Nodemailer</span><span>Web Speech API</span><span>MyMemory Translation API</span>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                
+                <h3>Smart Health Record Management System</h3>
+                <p>Built a healthcare records platform with real-time patient-doctor chat, appointment booking, multilingual voice-to-text translation, secure uploads, and AES encryption for privacy protection.</p>
+                <div class="project-tags">
+                    <span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span><span>Web Crypto API</span>
+                </div>
+            </div>
+
+            <div class="project-card" data-tilt>
+                
+                <h3>Student Mentorship Tracking System</h3>
+                <p>Created a mentorship system with 4 user roles, secure authentication, attendance tracking, internal marks automation, email notifications, and performance analytics.</p>
+                <div class="project-tags">
+                    <span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML/CSS</span><span>NodeMailer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="cert-section">
+        <div class="section-title">
+            <h2>Achievements &Certifications</h2>
+            <p>Recognitions that reflect my technical and professional growth.</p>
+        </div>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <h3><i class="fas fa-award"></i> NPTEL – Programming in Java</h3>
+                <p>Elite + Gold Badge | Score: 94% | IIT Bombay</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-award"></i> Tech2 Corporate - Corporate Day Celebration</h3>
+                <p>Certificate of Appreciation</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-award"></i> Scholarship - SKSVMACET, Lakshmeshwar</h3>
+                <p>Academic Excellence</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-users"></i> National-Level Hackathons</h3>
+                <p>Active participant across multiple colleges</p>
+            </div>            
+            <div class="cert-card">
+                <h3><i class="fas fa-laptop-code"></i> Python Programming</h3>
+                <p>Spoken Tutorial, IIT Bombay | Score: 85%</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-laptop-code"></i> Internship - EMERTXE(1 month)</h3>
+                <p>Project - "HomelyHub - Smart AI platform booking management system"</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-user-graduate"></i> NPTEL – Soft Skills Training</h3>
+                <p>IIT Bombay</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-trophy"></i> IBM Certifications</h3>
+                <p>Artificial Intelligence Fundamentals, Career Management Essentials, Project Management Fundamentals, Craft Precise Prompts for AI Models</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-trophy"></i> INTERNPE Quiz-A-Thon</h3>
+                <p>Participant</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-trophy"></i> Quiz Off 2026 </h3>
+                <p>Participant - India's Biggest AI Quiz, organized by Campus Crew and hosted on Unstop</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-trophy"></i> IOT Workshop </h3>
+                <p>Participant - organized by the CSE Department, SKSVMACET Lakshmeshwar</p>
+            </div>
+            <div class="cert-card">
+                <h3><i class="fas fa-chalkboard-teacher"></i> Workshop – "STACKFART"</h3>
+                <p>Web Development Workshop | Dept. of CSE, SKSVMACET Lakshmeshwar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="section-title">
+            <h2>Education</h2>
+            <p>My academic background and achievements.</p>
+        </div>
+        <div class="education-card">
+            <h3>B.E. Computer Science & Engineering</h3>
+            <p><strong>Smt. Kamala and Sri Venkappa M Agadi College of Engineering and Technology, Lakshmeshwar</strong></p>
+            <p>Aug 2023 – Present (Expected May 2027) | CGPA: 9.01 / 10</p>
+            <br>
+            <h3>Pre-University (Science – PCMB)</h3>
+            <p><strong>KLE PC Jabin Science College, Hubli</strong></p>
+            <p>Jun 2022 – Apr 2023 | Percentage: 87.16%</p>
+            <br>
+            <h3>Secondary School</h3>
+            <p><strong>SSK Sri Ram English Medium School, Hubli</strong></p>
+            <p>Jun 2021 –May 2022 | Percentage: 88.48%</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="glass-contact-card">
+            <h2>Contact Details</h2>
+
+            <div class="contact-details">
+                <a href="https://www.google.com/maps/search/?api=1&query=Hubli%2C+Karnataka" target="_blank"><i class="fas fa-map-marker-alt"></i> Hubli, Karnataka</a>
+                <a href="tel:+918660780661"><i class="fas fa-phone"></i> +91 8660780661</a>
+                <a href="mailto:laxmigmettin@gmail.com"><i class="fas fa-envelope"></i> laxmigmettin@gmail.com</a>
+                <a href="https://www.linkedin.com/in/laxmi-gurushiddappa-mettin-22a6772a2?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/Laxmimettin" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.instagram.com/laxmi_mettin.40010/?utm_source=qr&igsh=NWVvazQyNjdpcndw" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://t.me/LaxmiMettin" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="resume-modal" class="resume-modal" aria-hidden="true">
+        <div class="resume-modal-content">
+            <button class="resume-close" aria-label="Close resume viewer">×</button>
+            <iframe src="laxmi_resume_word.pdf" title="Laxmi Mettin Resume"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
